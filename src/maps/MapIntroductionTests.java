@@ -4,6 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import telran.util.words.AutoCompletionMapImpl;
+
 import java.util.*;
 class MapIntroductionTests {
 HashMap<String, Integer> hashMap;
@@ -53,4 +56,5 @@ Integer values[] = {10, 20, 30, 40, 50};
 		assertIterableEquals(linkedHashExpected, linkedHashMap.keySet());
 	}
 
+	
 }
